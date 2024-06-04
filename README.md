@@ -1,4 +1,4 @@
-## Federal Scholarship Board Website Migration to Azure
+## Nigeria Federal Scholarship Board Website Migration to Azure
 
 ### Project Overview
 This project involves migrating the Federal Scholarship Board's website from an on-premises setup to Azure Cloud to streamline the scholarship verification and renewal process. The goal is to create a scalable, secure, and cost-effective solution that enables online submission, verification, and automated payment processes for scholarship applicants.
@@ -97,12 +97,12 @@ Migrating to Azure could potentially save around $152,624 over three years.
 ### How to Use This Project
 1. **Clone the Repository**:
    ```bash
-   git clone https://github.com/yourusername/federal-scholarship-board-migration.git
+   git clone https://github.com/RichardChukwu/FSBWebMigration.git
    ```
 
 2. **Navigate to the Project Directory**:
    ```bash
-   cd federal-scholarship-board-migration
+   cd FSBWebMigration
    ```
 
 3. **Review the Architecture Diagram**:
