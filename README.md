@@ -10,7 +10,7 @@ Every year, the Federal Scholarship Board manually verifies student documents fo
 To address these challenges, the solution involves migrating the existing website to Azure, implementing online document submission, automating the verification process, and integrating payment systems. This solution leverages various Azure services to ensure scalability, security, and cost-efficiency.
 
 ### Architecture Diagram
-![Architecture Diagram](path/to/your/architecture_diagram.png)
+![Architecture Diagram](https://github.com/RichardChukwu/FSBWebMigration/blob/main/FSB%20webApp%20Architecture.drawio.png)
 
 ### Azure Services Used
 1. **Azure App Services**: Hosts the web application.
@@ -24,27 +24,36 @@ To address these challenges, the solution involves migrating the existing websit
 ### TCO Calculation
 Using the Azure TCO Calculator, the total cost of ownership for running the on-premises setup versus Azure was compared over a three-year period.
 
-#### On-Premises Costs (Example Estimate):
-- **Hardware Costs**: $20,000 (servers and storage)
-- **Maintenance Costs**: $5,000 per year
-- **Power and Cooling**: $2,500 per year
-- **Networking Costs**: $1,000 per year
-- **Operational Costs**: $10,000 per year (IT staff, security, backup)
+#### On-Premises Costs:
+- **Compute**: $171,645.03 (servers and storage)
+- **Hardware Costs**: $45,136 (servers and storage)
+- **Software**: $7,693.75
+- **Electricity**: $97,184.88
+- **Virtualization**: $21,630.40
+- **Data Centre**: $8,161.29
+- **Networking Costs**: $14,642.73
+- **Storage**: $692.48
+- **IT Labour**: $22,999.77 (IT staff, security, backup)
 
-**Total On-Premises Costs for 3 Years**: Approximately $67,500
+**Total On-Premises Costs for 3 Years**: Approximately $218,141.00
 
 #### Azure Costs (Example Estimate):
-- **Azure App Services**: $1,800 per year
-- **Azure SQL Database**: $6,000 per year
-- **Azure Blob Storage**: $300 per year
-- **Azure Application Gateway**: $1,500 per year
-- **Azure Logic Apps / Functions**: $600 per year
-- **Azure Active Directory**: $0 (assuming basic tier)
+- **Compute**: $36,396.00
+- **Data Centre**: $0.00
+- **Networking**: $1,834.50
+- **Storage**: $4,287.43
+- **IT Labour**: $22,999.77
 
-**Total Azure Costs for 3 Years**: Approximately $30,900
+**Total Azure Costs for 3 Years**: Approximately $65,517.00
 
 #### Cost Savings:
-Migrating to Azure could potentially save around $36,600 over three years.
+Migrating to Azure could potentially save around $152,624 over three years.
+
+### Cost Savings Visual
+![Cost Savings Graph](https://github.com/RichardChukwu/FSBWebMigration/blob/main/FSB%20webApp%20Architecture.drawio.png)
+
+![Cost Savings Over 3 Years](https://github.com/RichardChukwu/FSBWebMigration/blob/main/FSB%20webApp%20Architecture.drawio.png)
+
 
 ### Pricing Calculator Configuration
 #### Virtual Machines:
