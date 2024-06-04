@@ -50,9 +50,9 @@ Using the Azure TCO Calculator, the total cost of ownership for running the on-p
 Migrating to Azure could potentially save around $152,624 over three years.
 
 ### Cost Savings Visual
-![Cost Savings Graph](https://github.com/RichardChukwu/FSBWebMigration/blob/main/FSB%20webApp%20Architecture.drawio.png)
+![Cost Savings Graph](https://github.com/RichardChukwu/FSBWebMigration/blob/main/cost%20savings%201.png)
 
-![Cost Savings Over 3 Years](https://github.com/RichardChukwu/FSBWebMigration/blob/main/FSB%20webApp%20Architecture.drawio.png)
+![Cost Savings Over 3 Years](https://github.com/RichardChukwu/FSBWebMigration/blob/main/cost%20savings%202.png)
 
 
 ### Pricing Calculator Configuration
